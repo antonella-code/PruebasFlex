@@ -10,7 +10,8 @@ img {
     max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, li {
+h1, h2, h3, h4, h5, h6, p, a,
+li {
     font-family: sans-serif;
 }
 
@@ -22,10 +23,10 @@ a {
 /* Reset CSS*/
 
 .btn {
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     background-color: black;
     color: white;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,127 +35,127 @@ a {
 /* Nivel 1*/
 
 .flex-a__section {
-    padding: 48px;
+    padding: 3rem;
     background-color: #fbfbfb;
 }
 
 .flex-a__content {
-    max-width: 920px;
+    max-width: 57.5rem;
     display: flex;
     flex-flow: row wrap;
-    padding: 16px;
-    gap: 48px;
+    padding: 1rem;
+    gap: 3rem;
     align-items: center;
     margin: 0 auto;
 }
 
 .flex-a__text {
-    flex: 1 1 300px;
+    flex: 1 1 18.75rem;
     display: flex;
     flex-flow: column nowrap;
-    padding: 16px;
-    gap: 16px
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .flex-a__image {
-    flex: 1 1 300px;
+    flex: 1 1 18.75rem;
 }
 
 
 /* Nivel 2 */
 
 .flex-b__section {
-    padding: 48px 0px;
+    padding: 3rem 0px;
     background-color: #fbfbfb;
 }
 
 .flex-b__block {
-    max-width: 920px;
-    padding: 16px;
+    max-width: 57.5rem;
+    padding: 1rem;
     display: flex;
     flex-flow: row wrap;
-    gap: 16px;
+    gap: 1rem;
     align-items: start;
     margin: 0 auto;
 }
 
 .flex-b__content {
-    flex: 1 1 250px;
+    flex: 1 1 15.625rem;
     display: flex;
     flex-flow: column nowrap;
-    gap: 16px;
-    padding: 16px;
+    gap: 1rem;
+    padding: 1rem;
     background-color: #FFFFFF;
 }
 
 /* Nivel 3 */
 
 .Flex-c {
-padding: 48px 0px;
-background-color: #fbfbfb;
+    padding: 3rem 0px;
+    background-color: #fbfbfb;
 }
 
 .Flex-c__block {
-max-width: 920px;
-margin: 0 auto;
-padding: 16px;
-display: flex;
-flex-flow: column nowrap;
-gap: 32px;
-align-items: start;
+    max-width: 57.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    align-items: start;
 }
 
 .flex-c__cards {
-display: flex;
-flex-flow: row wrap;
-padding: 16px 0px;
-gap: 16px
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem 0px;
+    gap: 1rem;
 }
 
 .flex-c__card {
-flex: 1 1 300px;
-padding: 16px 0px;
-display: flex;
-flex-flow: column nowrap;
-gap: 16px;
+    flex: 1 1 18.75rem;
+    padding: 1rem 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
 }
 
 /* Nivel 4 */
 
 .Flex-d {
-padding: 48px 0px;
-background-color: #fbfbfb; 
+    padding: 3rem 0px;
+    background-color: #fbfbfb;
 }
 
 .Flex-d__block {
-max-width: 920px;
-margin: 0 auto;
-padding: 16px;
-display: flex;
-Flex-flow: column nowrap;
-gap: 32px;
+    max-width: 57.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    Flex-flow: column nowrap;
+    gap: 2rem;
 }
 
 .Flex-d__heading {
-display: flex;
-flex-direction: row wrap;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Flex-d__cards {
-display: flex;
-flex-flow: row wrap;
-padding: 16px 0px;
-gap: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem 0px;
+    gap: 1rem;
 }
 
 .Flex-d__card {
-flex: 1 1 300px;
-padding: 16px 0px;
-display: flex;
-flex-flow: column nowrap;
-gap: 16px
+    flex: 1 1 18.75rem;
+    padding: 1rem 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
 }
 
 /* Flex-grow: 1; cuanto crece el elemento de rápido
@@ -163,90 +164,138 @@ gap: 16px
             TODO ESTO SE RESUME EN flex: 1 1 300px */
 
 .Flex-d__footer {
-display: flex;
-flex-flow: row wrap;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Nivel 1 medio */
 
 .Flex-e {
-padding: 48px 0px;
-background-color: #fbfbfb;
+    padding: 3rem 0px;
+    background-color: #fbfbfb;
 }
 
 .Flex-e__block {
-max-width: 920px;
-margin: 0 auto;
-padding: 16px;
-display: flex;
-flex-flow: column nowrap;
-gap: 48px;
+    max-width: 57.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3rem;
 }
 
 .Flex-e__content {
-display: flex;
-flex-flow: column nowrap;
-align-items: start;
-gap: 16px;
-padding: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .Flex-e__text {
-display: flex;
-flex-flow: row wrap;
-gap: 16px;
-padding: 16px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    padding: 1rem 0px;
 }
 
 .Flex-e__text p {
-flex: 1 1 300px;
+    flex: 1 1 18.75rem;
 }
 
 /* Nivel 2 medio */
 
 .Flex-f {
-padding: 48px 0px;
-background-color: #fbfbfb;
+    padding: 3rem 0px;
+    background-color: #fbfbfb;
 }
 
 .Flex-f__block {
-max-width: 920px;
-margin: 0 auto;
-padding: 16px;
-gap: 48px;
-display: flex;
-flex-flow: column nowrap;
+    max-width: 57.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 3rem;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .Flex-f__images {
-display: flex;
-flex-flow: row wrap;
-gap: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
 }
 
 .Flex-f__image {
-    flex: 1 1 300px;
+    flex: 1 1 18.75rem;
 }
 
 .Flex-f__content {
-gap: 16px;
-padding: 16px;
-display: flex;
-flex-flow: column nowrap;
+    gap: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .Flex-f__text {
-display: flex;
-flex-flow: row wrap;
-padding: 16px 0px;
-align-items: center;
-} 
-
-.Flex-f__text p, .Flex-f__text .btn {
-flex: 1 1 300px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem 0px;
+    align-items: center;
 }
 
+.Flex-f__text p,
+.Flex-f__text .btn {
+    flex: 1 1 18.75rem;
+}
 
+/* Nivel 3 medio */
 
+.Flex_g {
+    padding: 3rem 0px;
+    background-color: #fbfbfb;
+}
+
+.Flex-g__block {
+    max-width: 57.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.Flex-g__content {
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.Flex-g__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+    gap: 1rem;
+    padding: 1rem 0px;
+}
+
+.Flex-g__card {
+    padding: 2rem;
+    flex: 1 1 18.75rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+}
+
+.Flex-g__card-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Flex-g__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+}
