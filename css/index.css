@@ -277,6 +277,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
     gap: 1rem;
     padding: 1rem 0px;
+    background-color: red;
 }
 
 .Flex-g__card {
