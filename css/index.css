@@ -1,0 +1,252 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset CSS*/
+
+.btn {
+    padding: 16px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nivel 1*/
+
+.flex-a__section {
+    padding: 48px;
+    background-color: #fbfbfb;
+}
+
+.flex-a__content {
+    max-width: 920px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 16px;
+    gap: 48px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.flex-a__text {
+    flex: 1 1 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 16px;
+    gap: 16px
+}
+
+.flex-a__image {
+    flex: 1 1 300px;
+}
+
+
+/* Nivel 2 */
+
+.flex-b__section {
+    padding: 48px 0px;
+    background-color: #fbfbfb;
+}
+
+.flex-b__block {
+    max-width: 920px;
+    padding: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.flex-b__content {
+    flex: 1 1 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    padding: 16px;
+    background-color: #FFFFFF;
+}
+
+/* Nivel 3 */
+
+.Flex-c {
+padding: 48px 0px;
+background-color: #fbfbfb;
+}
+
+.Flex-c__block {
+max-width: 920px;
+margin: 0 auto;
+padding: 16px;
+display: flex;
+flex-flow: column nowrap;
+gap: 32px;
+align-items: start;
+}
+
+.flex-c__cards {
+display: flex;
+flex-flow: row wrap;
+padding: 16px 0px;
+gap: 16px
+}
+
+.flex-c__card {
+flex: 1 1 300px;
+padding: 16px 0px;
+display: flex;
+flex-flow: column nowrap;
+gap: 16px;
+}
+
+/* Nivel 4 */
+
+.Flex-d {
+padding: 48px 0px;
+background-color: #fbfbfb; 
+}
+
+.Flex-d__block {
+max-width: 920px;
+margin: 0 auto;
+padding: 16px;
+display: flex;
+Flex-flow: column nowrap;
+gap: 32px;
+}
+
+.Flex-d__heading {
+display: flex;
+flex-direction: row wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.Flex-d__cards {
+display: flex;
+flex-flow: row wrap;
+padding: 16px 0px;
+gap: 16px;
+}
+
+.Flex-d__card {
+flex: 1 1 300px;
+padding: 16px 0px;
+display: flex;
+flex-flow: column nowrap;
+gap: 16px
+}
+
+/* Flex-grow: 1; cuanto crece el elemento de rápido
+   Flex-shrink: 1; cuanto decrece el elemento de rápido
+   Flex-basis; 300px; Tamaño minimo del elemento en su eje principañ
+            TODO ESTO SE RESUME EN flex: 1 1 300px */
+
+.Flex-d__footer {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+/* Nivel 1 medio */
+
+.Flex-e {
+padding: 48px 0px;
+background-color: #fbfbfb;
+}
+
+.Flex-e__block {
+max-width: 920px;
+margin: 0 auto;
+padding: 16px;
+display: flex;
+flex-flow: column nowrap;
+gap: 48px;
+}
+
+.Flex-e__content {
+display: flex;
+flex-flow: column nowrap;
+align-items: start;
+gap: 16px;
+padding: 16px;
+}
+
+.Flex-e__text {
+display: flex;
+flex-flow: row wrap;
+gap: 16px;
+padding: 16px 0px;
+}
+
+.Flex-e__text p {
+flex: 1 1 300px;
+}
+
+/* Nivel 2 medio */
+
+.Flex-f {
+padding: 48px 0px;
+background-color: #fbfbfb;
+}
+
+.Flex-f__block {
+max-width: 920px;
+margin: 0 auto;
+padding: 16px;
+gap: 48px;
+display: flex;
+flex-flow: column nowrap;
+}
+
+.Flex-f__images {
+display: flex;
+flex-flow: row wrap;
+gap: 16px;
+}
+
+.Flex-f__image {
+    flex: 1 1 300px;
+}
+
+.Flex-f__content {
+gap: 16px;
+padding: 16px;
+display: flex;
+flex-flow: column nowrap;
+}
+
+.Flex-f__text {
+display: flex;
+flex-flow: row wrap;
+padding: 16px 0px;
+align-items: center;
+} 
+
+.Flex-f__text p, .Flex-f__text .btn {
+flex: 1 1 300px;
+}
+
+
+
